@@ -1,4 +1,5 @@
-##Problem
+## Problem
+
 The calculator has a stack that can contain real numbers.
 
 • The calculator waits for user input and expects to receive strings containing whitespace separated lists of numbers and operators.
@@ -26,7 +27,7 @@ operator <operator> (position: <pos>): insufficient parameters
 
 • After displaying the warning, all further processing of the string terminates and the current state of the stack is displayed.
 
-##Deliverable
+## Deliverable
 
 The solution submitted should include structure, source code, configuration and any tests or test code you deem necessary - no need to package class files. •
 
@@ -36,7 +37,7 @@ Solve the problem in Java or Kotlin. 
 
 • It is not required to provide any graphical interface. In order to get around firewall issues we recommend the solution be packaged as a password protected zip file or Github repository link.
 
-##Examples
+## Examples
 
 Example 1
 --
