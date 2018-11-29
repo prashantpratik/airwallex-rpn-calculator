@@ -8,7 +8,6 @@ import java.util.List;
 
 /**
  * Base command interface
- * Contains one abstract and one default method
  */
 @FunctionalInterface
 public interface BaseOperator {

@@ -21,6 +21,12 @@ public class RpnCalculatorController implements Calculator {
         return numberStack;
     }
 
+    /**
+     * This method parses the input string and passes it Operation instances for processing
+     *
+     * @param inputString
+     * @throws CalculatorException
+     */
     @Override
     public void run(String inputString) throws CalculatorException {
         if (null == inputString || inputString.isEmpty())
@@ -32,6 +38,9 @@ public class RpnCalculatorController implements Calculator {
         }
     }
 
+    /**
+     * This method displays the content of stack in reverse order
+     */
     @Override
     public void display() {
         System.out.print("Stack: ");
