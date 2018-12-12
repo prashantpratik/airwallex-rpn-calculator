@@ -42,6 +42,6 @@ After displaying the warning, all further processing of the string terminates an
 
 - Test: `mvn test`
 
-- Run: `mvn exec:java`
+- Run: `java -jar target/rpn-calculator-1.0.0.jar`
 
 - Packaging: `mvn package`, compiled jar in *target/* folder
